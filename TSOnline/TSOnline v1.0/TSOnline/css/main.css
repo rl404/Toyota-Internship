@@ -1,0 +1,42 @@
+body {
+	background: url(../images/background.png);
+  	background-size: calc(cover + 50%);
+  	background-attachment: fixed;
+  	left:20%;
+}
+
+a{
+	color:black;
+}
+
+#existedts {
+	color: red;
+}
+
+#okts {
+	color: green;
+}
+
+#input1form{
+	margin:auto;
+	width: 500px;
+}
+
+#tdpage:hover{
+	background-color: #cecece;
+	cursor:pointer;
+}
+
+#selected-tdpage {
+	background-color: #cecece;
+}
+
+#listsearch {
+	height: 450px;
+	overflow-y: scroll;
+}
+
+#listxlist {
+	height: 400px;
+	overflow-y: scroll;
+}
